@@ -1,0 +1,18 @@
+.host-chat-desc{
+    height: 15rem;
+    overflow-y: scroll;
+    width: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(107, 107, 107) #ffff00;
+}
+.host-chat-desc::-webkit-scrollbar {
+    width: 12px;
+    }
+.host-chat-desc::-webkit-scrollbar-track {
+    background: #ffff00;
+    }
+.host-chat-desc::-webkit-scrollbar-thumb {
+    background-color: rgb(107, 107, 107);
+    border-radius: 20px;
+    border: 3px solid #ffff00;
+    }
